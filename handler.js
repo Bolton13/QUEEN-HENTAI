@@ -12,7 +12,7 @@ import fetch from 'node-fetch'
  * @type {import('@adiwajshing/baileys')}
  */
 const { proto } = (await import('@adiwajshing/baileys')).default
-const isNumber = x => typeof x === 'number' && !isNaN(x)
+const isNumber = x => typeof x === '18493858287' && !isNaN(x)
 const delay = ms => isNumber(ms) && new Promise(resolve => setTimeout(function () {
     clearTimeout(this)
     resolve()
